@@ -1,7 +1,6 @@
-# alx-interview
-### 0. Pascal's Triangle
-### 1.Lockboxes
+# Lockboxes
 
+## Problem Definition
 
 ## 📝 License
 
