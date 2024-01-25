@@ -1,6 +1,6 @@
 # alx-interview
 ### 0. Pascal's Triangle
-### 1.Lockboxes
+### 1.Lockboxes <br>2.Minimum Operations <br> 3.0x03-log_parsing
 
 
 ## 📝 License
