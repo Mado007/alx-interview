@@ -1,7 +1,7 @@
 # alx-interview
 ### 0. Pascal's Triangle
 ### 1.Lockboxes <br>2.Minimum Operations <br> 3.0x03-log_parsing
-### 4.0x04-utf8_validation <br> 5. 0x05 N Queens
+### 4.0x04-utf8_validation <br> 5. 0x05 N Queens <br> 0x06-starwars_api
 
 ## 📝 License
 
