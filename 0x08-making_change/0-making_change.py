@@ -1,31 +1,25 @@
 #!/usr/bin/python3
-"""Define makeChange function."""
-from typing import List
+""" Making changes """
 
 
-def makeChange(coins: List[int], total: int) -> int:
-    """Return the fewest number of coins
-    from `coins` list needed to meet `total`."""
+def makeChange(coins, total):
+    """ Generate changes needed to reach total
+
+    Args:
+        coins ([List]): [List of Coins available]
+        total ([int]): [total amount needed]
+    """
     if total <= 0:
         return 0
-
-    # start by the most valuable coin to achieve the fewest number of coins
+    check = 0
+    temp = 0
     coins.sort(reverse=True)
-
-    count = 0
-    for coin in coins:
-        if total:
-            if total % coin == 0:
-                # then use that coin denomination for the remaining total
-                return count + total // coin
-
-            # use the largest possible integer number of coins
-            # from that coin denomination
-            count += total // coin
-            total = total % coin
-
-    if total != 0:
-        # then total cannot be met by any number of coins we have
-        return -1
-
-    return count
+    for i in coins:
+        while check < total:
+            check += i
+            temp += 1
+        if check == total:
+            return temp
+        check -= i
+        temp -= 1
+    return -1
