@@ -14,7 +14,7 @@ is a function that returns the perimeter of the island described in `grid`:
 *   The island doesn’t have “lakes” (water inside that isn’t connected to the water surrounding the island).
 
 ```bash
-ammar@ubuntu:~/0x09$ cat 0-main.py
+Mado-Term$~/0x09$ cat 0-main.py
 #!/usr/bin/python3
 """
 0-main
@@ -31,8 +31,8 @@ if __name__ == "__main__":
     ]
     print(island_perimeter(grid))
 
-ammar@ubuntu:~/0x09$
-ammar@ubuntu:~/0x09$ ./0-main.py
+Mado-Term$~/0x09$
+Mado-Term$~/0x09$ ./0-main.py
 12
-ammar@ubuntu:~/0x09$
+Mado-Term$:~/0x09$
 ```
