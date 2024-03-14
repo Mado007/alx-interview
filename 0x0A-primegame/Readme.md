@@ -30,11 +30,12 @@ To run the project:
 
 ```bash
 git clone https://github.com/alx-interview/0x0A-primegame.git
+```
 
 ```bash
 cd 0x0A-primegame
 ./main_0.py
-
+```
 
 # License
 Copyright © 2024 ALX, All rights reserved.
